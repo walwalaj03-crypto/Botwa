@@ -1,0 +1,8 @@
+{
+  "name":"hendarbot-vercel",
+  "version":"3.0.0",
+  "private":true,
+  "scripts":{"dev":"vercel dev","start":"node -e \"console.log('Run with vercel dev')\""},
+  "dependencies":{"@neondatabase/serverless":"^0.10.4","bcryptjs":"^2.4.3","jsonwebtoken":"^9.0.2"},
+  "devDependencies":{"vercel":"^39.2.2"}
+}
